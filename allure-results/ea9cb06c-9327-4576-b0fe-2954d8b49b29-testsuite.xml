@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668238171610' stop='1668238207367'>
+    <name>Actions</name>
+    <title>Actions</title>
+    <test-cases>
+        <test-case start='1668238171611' status='failed' stop='1668238184298'>
+            <name>.type() - type into a DOM element</name>
+            <title>.type() - type into a DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 6150ms: expected '&lt;input#email1.form-control.action-email>' to have value 'sw.typing@email.com', but the value was 'slow.typing@email.com'</message>
+                <stack-trace>AssertionError: Timed out retrying after 6150ms: expected '&lt;input#email1.form-control.action-email>' to have value 'sw.typing@email.com', but the value was 'slow.typing@email.com'
+                    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\2-advanced-examples\actions.spec.js:115:8)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668238184378' status='passed' stop='1668238184719'>
+            <name>.focus() - focus on a DOM element</name>
+            <title>.focus() - focus on a DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238184745' status='passed' stop='1668238185354'>
+            <name>.blur() - blur off a DOM element</name>
+            <title>.blur() - blur off a DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238185370' status='failed' stop='1668238190645'>
+            <name>.clear() - clears an input or textarea element</name>
+            <title>.clear() - clears an input or textarea element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4070ms: expected '&lt;input#description.form-control.action-clear>' to have value 'as', but the value was ''</message>
+                <stack-trace>AssertionError: Timed out retrying after 4070ms: expected '&lt;input#description.form-control.action-clear>' to have value 'as', but the value was ''
+                    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\2-advanced-examples\actions.spec.js:132:101)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668238190690' status='passed' stop='1668238191372'>
+            <name>.submit() - submit a form</name>
+            <title>.submit() - submit a form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238191382' status='passed' stop='1668238194564'>
+            <name>.click() - click on a DOM element</name>
+            <title>.click() - click on a DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238194569' status='passed' stop='1668238194966'>
+            <name>.dblclick() - double click on a DOM element</name>
+            <title>.dblclick() - double click on a DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238194971' status='passed' stop='1668238195506'>
+            <name>.rightclick() - right click on a DOM element</name>
+            <title>.rightclick() - right click on a DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238195537' status='passed' stop='1668238197021'>
+            <name>.check() - check a checkbox or radio element</name>
+            <title>.check() - check a checkbox or radio element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238197022' status='passed' stop='1668238198288'>
+            <name>.uncheck() - uncheck a checkbox element</name>
+            <title>.uncheck() - uncheck a checkbox element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238198293' status='passed' stop='1668238199669'>
+            <name>.select() - select an option in a &lt;select> element</name>
+            <title>.select() - select an option in a &lt;select> element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238199678' status='failed' stop='1668238204554'>
+            <name>.scrollIntoView() - scroll an element into view</name>
+            <title>.scrollIntoView() - scroll an element into view</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: expected '&lt;button.btn.btn-danger>' not to be 'visible'</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: expected '&lt;button.btn.btn-danger>' not to be 'visible'
+                    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\2-advanced-examples\actions.spec.js:252:56)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1668238204603' status='passed' stop='1668238205004'>
+            <name>.trigger() - trigger an event on a DOM element</name>
+            <title>.trigger() - trigger an event on a DOM element</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238205023' status='passed' stop='1668238207367'>
+            <name>cy.scrollTo() - scroll the window or element to a position</name>
+            <title>cy.scrollTo() - scroll the window or element to a position</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668238325984' stop='1668238331484'>
+    <name>Spies, Stubs, and Clock</name>
+    <title>Spies, Stubs, and Clock</title>
+    <test-cases>
+        <test-case start='1668238325984' status='passed' stop='1668238327763'>
+            <name>cy.spy() - wrap a method in a spy</name>
+            <title>cy.spy() - wrap a method in a spy</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238327767' status='passed' stop='1668238330288'>
+            <name>cy.spy() retries until assertions pass</name>
+            <title>cy.spy() retries until assertions pass</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238330293' status='passed' stop='1668238330798'>
+            <name>cy.stub() - create a stub and/or replace a function with stub</name>
+            <title>cy.stub() - create a stub and/or replace a function with stub</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238330808' status='passed' stop='1668238331074'>
+            <name>cy.clock() - control time in the browser</name>
+            <title>cy.clock() - control time in the browser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238331078' status='passed' stop='1668238331436'>
+            <name>cy.tick() - move time in the browser</name>
+            <title>cy.tick() - move time in the browser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238331441' status='passed' stop='1668238331457'>
+            <name>cy.stub() matches depending on arguments</name>
+            <title>cy.stub() matches depending on arguments</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238331460' status='passed' stop='1668238331483'>
+            <name>matches call arguments using Sinon matchers</name>
+            <title>matches call arguments using Sinon matchers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

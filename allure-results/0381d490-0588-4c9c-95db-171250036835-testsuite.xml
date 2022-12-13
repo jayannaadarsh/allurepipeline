@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668238263733' stop='1668238267328'>
+    <name>Files</name>
+    <title>Files</title>
+    <test-cases>
+        <test-case start='1668238263733' status='passed' stop='1668238265722'>
+            <name>cy.fixture() - load a fixture</name>
+            <title>cy.fixture() - load a fixture</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238265725' status='passed' stop='1668238266042'>
+            <name>cy.fixture() or require - load a fixture</name>
+            <title>cy.fixture() or require - load a fixture</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238266042' status='passed' stop='1668238266233'>
+            <name>cy.readFile() - read file contents</name>
+            <title>cy.readFile() - read file contents</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238266237' status='passed' stop='1668238267328'>
+            <name>cy.writeFile() - write to a file</name>
+            <title>cy.writeFile() - write to a file</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

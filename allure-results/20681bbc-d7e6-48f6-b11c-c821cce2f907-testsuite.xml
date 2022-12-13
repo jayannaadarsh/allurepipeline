@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668238359737' stop='1668238371198'>
+    <name>Waiting</name>
+    <title>Waiting</title>
+    <test-cases>
+        <test-case start='1668238359737' status='passed' stop='1668238365808'>
+            <name>cy.wait() - wait for a specific amount of time</name>
+            <title>cy.wait() - wait for a specific amount of time</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238365813' status='failed' stop='1668238371163'>
+            <name>cy.wait() - wait for a specific route</name>
+            <title>cy.wait() - wait for a specific route</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: expected 200 to be one of [ 100, 504 ]</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: expected 200 to be one of [ 100, 504 ]
+                    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress\integration\2-advanced-examples\waiting.spec.js:122:55)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668238276076' stop='1668238278739'>
+    <name>Location</name>
+    <title>Location</title>
+    <test-cases>
+        <test-case start='1668238276076' status='passed' stop='1668238277849'>
+            <name>cy.hash() - get the current URL hash</name>
+            <title>cy.hash() - get the current URL hash</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238277855' status='passed' stop='1668238278545'>
+            <name>cy.location() - get window.location</name>
+            <title>cy.location() - get window.location</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238278548' status='passed' stop='1668238278739'>
+            <name>cy.url() - get the current URL</name>
+            <title>cy.url() - get the current URL</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

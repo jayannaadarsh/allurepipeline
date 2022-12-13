@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668238258309' stop='1668238258874'>
+    <name>Cypress.Cookies</name>
+    <title>Cypress.Cookies</title>
+    <test-cases>
+        <test-case start='1668238258309' status='passed' stop='1668238258527'>
+            <name>.debug() - enable or disable debugging</name>
+            <title>.debug() - enable or disable debugging</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238258530' status='passed' stop='1668238258707'>
+            <name>.preserveOnce() - preserve cookies by key</name>
+            <title>.preserveOnce() - preserve cookies by key</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1668238258709' status='passed' stop='1668238258867'>
+            <name>.defaults() - set defaults for all cookies</name>
+            <title>.defaults() - set defaults for all cookies</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

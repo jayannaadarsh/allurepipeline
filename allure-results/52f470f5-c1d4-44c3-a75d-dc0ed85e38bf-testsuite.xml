@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668238259736' stop='1668238259931'>
+    <name>Cypress.log</name>
+    <title>Cypress.log</title>
+    <test-cases>
+        <test-case start='1668238259737' status='passed' stop='1668238259922'>
+            <name>Control what is printed to the Command Log</name>
+            <title>Control what is printed to the Command Log</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
